@@ -1,0 +1,29 @@
+{
+    "videos":[
+        {
+            "title": "Once Upon a Time in Rhode Island",
+            "thumbnail":"thumb_summer.jpg",
+            "description":"A short film recollecting my time as a CS research intern at Brown University",
+            "link":"https://www.youtube.com/watch?v=kYuQ8myVoJU&ab_channel=Z"
+        },
+        {
+            "title": "How I Learned to Speak Spanish in 7 Days",
+            "thumbnail":"thumb_spanish.png",
+            "description":"Using a variety of methods, I learn to speak spanish in a week.",
+            "link":"https://www.youtube.com/watch?v=gm1wqDCco0M&ab_channel=Z"
+        },
+        {
+            "title": "Elliospizza",
+            "thumbnail":"thumb_elliospizza.jpg",
+            "description":"A cinematic visualization for the song elliospizza by Meek Mill",
+            "link":"https://www.youtube.com/watch?v=XoByj-xZRKc&ab_channel=Z"
+        },
+        {
+            "title": "This Average Teen learns a Muscle Up in 31 Days... Kinda",
+            "thumbnail":"thumb_muscleup.png",
+            "description":"I learned how to do a muscle up in a month!",
+            "link":"https://www.youtube.com/watch?v=nY5XPrMk9Rw&ab_channel=Z"
+        }
+
+    ]
+}

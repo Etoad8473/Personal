@@ -1,0 +1,23 @@
+{
+    "videos":[
+        {
+            "title": "Spot the robot dog",
+            "image":"project_robot.jpg",
+            "description":"C#: Implimented a VR virtual representation and control scheme for Spot the robot dog.",
+            "link":"https://github.com/brownvc/SpotReality"
+        },
+        {
+            "title": "Twin app",
+            "image":"project_twin.jpg",
+            "description":"Java: Implemented the backend of 'Twin' a platonic dating app.",
+            "link":"https://github.com/Etoad8473"
+        },
+        {
+            "title": "Face tracker",
+            "image":"project_face.jpg",
+            "description":"Python: Recognizing faces and tracking objects in motion.",
+            "link":"https://github.com/Etoad8473"
+        }
+
+    ]
+}
