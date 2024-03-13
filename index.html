@@ -3,87 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Midterm</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="main.css">
 
-    <link rel="stylesheet" href="./style.css">
-    <style>
-        .container{
-            max-width: 960px;
-            margin: 0 auto;
-            padding: 40px;
-        }
-        .project{
-            margin-bottom: 20px;
-            border: 1px solid #ccc;
-            padding: 20px;
-        }
-    </style>
+
+    <script src="https://kit.fontawesome.com/4ecbbe944c.js" crossorigin="anonymous"></script>
+
+    <!-- Font import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href = "#about">About Me</a></li>
-                <li><a href = "#projects">Projects</a></li>
-                <li><a href = "#videos">Videos</a></li>
-                <li><a href = "#contact">Contact</a></li>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="./index.html" id="navbar__logo">ODOLE</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="./index.html" class="navbar__links">
+                        Home
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="./projects.html" class="navbar__links">
+                        Projects
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="./art.html" class="navbar__links">
+                        Art
+                    </a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#footer__scroll" class="button">
+                        Contact
+                    </a>
+                </li>
+                
             </ul>
-        </nav>
-    </header>
-
-    <section id = "about">
-        <div class="container">
-            <img src="./images/profile.jpg" alt ="Profile Photo" height = "250">
-            <h1>Ezra Odole</h1>
-            <p style="font-family: 'Courier New', Courier, monospace; color: brown">CS Student</p>
-            <p>
-                I am a third year student at Iowa State University. I am interested in
-                virtual reality, computer vision, and data science.
-            </p>
         </div>
-    </section>
+    </nav>
 
-    <section id = "projects">
-        <div class = "container">
-            <h2>Projects</h2>
-            <div class="project">
-                <img src = "./images/website.png" alt="HTML CSS project" height ="150">
-                <h3>Project 1</h3>
+    <!-- HERO Section -->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Ezra Odole</h1>
+                <h2>Portfolio</h2>
                 <p>
-                    The first project is a Webpage made with only HTML and CSS. This webpage. Nice right?
+                    I am a Junior in Computer Science interested in Computer Vision and AI, open to all domains of computer science.
+                    An avid learner, dedicated to self improvement and self expression. I love to code and love to create. On this 
+                    website you'll find my coding projects, and a collection of my creative works, including videos I've made, with some
+                     of my photography work as the backgrounds of these pages.
                 </p>
+                <button class="main__btn"><a href="./projects.html">Projects</a></button>
             </div>
-            <div class = "project">
-                <img src = "./images/wuhu.jpg" alt="Wii resort VR Project" height="150">
-                <h3>Project 2</h3>
-                <p>
-                    This was a passion project, and my first VR project. You fly around Wuhu island 
-                    in whatever directly you're looking and can adjust your engine speed by extending
-                    your arms outward.
-                </p>
+            <div class="main__img--container">
+                <img src="images/message.svg" alt="pic" id="main__img">
             </div>
         </div>
-    </section>
+    </div>
+    <script src = "index.js"></script>
 
-    <section id = "videos">
-        <div class="container">
-            <h2>Cinematography</h2>
-            <div class="project">
-                <img src="./images/thumb.jpg" alt="Video thumbnail" height="150">
-                <a href = "https://www.youtube.com/watch?v=kYuQ8myVoJU&t=2086s"><h3>Once Upon a Time in Rhode Island</h3></a>
+
+    <!-- FOOTER Section -->
+    <div class="footer" id="footer__scroll">
+        <div class="footer__content">
+            <p>This website was created by Ezra Odole and Aaron Woods. <a id="footer__about" href="./about.html">ABOUT PAGE</a></p>
+            <p>ezrao@iastate.edu</p>
+            <div class="social__icons">
+                <a href="https://www.linkedin.com/in/ezra-odole-56a787223/" id="social__icon--link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Etoad8473" id="social__icon--link" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.youtube.com/@etoadgecko" id="social__icon--link" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://www.instagram.com/ezraodole/" id="social__icon--link" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
             </div>
         </div>
-    </section>
-
-    <section id = "contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>You can reach me at ezrao@iastate.edu</p>
+        <div class="footer__rights">
+            <p class="website__rights">© ODOLE 2024. All rights reserved.</p>
         </div>
-    </section>
+        
+    </div>
 
-    <footer>
-        <p>&copy; 2024 Ezra Odole</p>
-    </footer>
 </body>
 </html>
